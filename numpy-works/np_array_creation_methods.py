@@ -1,0 +1,18 @@
+# np.array()
+# np.zeros()
+# np.ones()
+# np.full()
+# np.random.rand(size)
+# np.random.randint(low,high,(size))
+import numpy as np
+
+zero_array=np.zeros((3,3),dtype=int)
+print(zero_array)
+one_array=np.ones((4,4),dtype=int)
+print(one_array)
+five_array=np.full((2,3),5)
+print(five_array)
+random_array=np.random.rand(2,4)
+print(random_array)
+random_int_array=np.random.randint(10,15,(3,3))
+print(random_int_array)
